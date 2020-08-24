@@ -31,3 +31,7 @@ Knowledges about lua
 ## Книги/Мануалы
 1. [Lua 5.3 Руководство пользователя](https://antirek.github.io/luabook/)
 1. [Reference manuals](http://www.lua.org/manual/)
+
+## Сайты
+1. [Lua.org](https://www.lua.org/)
+1. [lua-users.org](http://lua-users.org/wiki/)
