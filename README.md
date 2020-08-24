@@ -2,7 +2,7 @@
 Knowledges about lua
 
 ## Fast start
-   
+
 1. [Wiki](https://ru.wikipedia.org/wiki/Lua)
 1. Внимание к темам:
    1. [Data types](https://ru.wikipedia.org/wiki/Lua#%D0%A2%D0%B8%D0%BF%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
@@ -35,3 +35,6 @@ Knowledges about lua
 ## Сайты
 1. [Lua.org](https://www.lua.org/)
 1. [lua-users.org](http://lua-users.org/wiki/)
+
+
+
