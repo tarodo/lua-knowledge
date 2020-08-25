@@ -18,9 +18,10 @@ function column_row_str(column_num, row_num)
   local while_block = 0
   local address_str = ""
   while column_num > 26 and while_block < 9 do
-    new_num = math.fmod(column_num, 26)
+    new_num = column_num % 26
     address_str = address_str .. string.char(new_num + 64)
-    column_num = math.modf(column_num / 26)
+    column_num = column_num / 26
+    column_num = column_num - column_num % 1
     while_block = while_block + 1
   end
   address_str = address_str .. string.char(column_num + 64)
@@ -30,4 +31,4 @@ end
 
 print(column_row_numbers("bb35"))
 
-print(column_row_str(54, 1))
+print(column_row_str(54, 35))
