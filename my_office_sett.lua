@@ -1,4 +1,5 @@
 function column_row_numbers(column_str)
+  -- Return column and row ids
   local column_num = 0
   column_str = string.upper(column_str)
   local order = 0
@@ -15,10 +16,11 @@ function column_row_numbers(column_str)
 end
 
 function column_row_str(column_num, row_num)
+  -- Return address of cell
   local while_block = 0
   local address_str = ""
   while column_num > 26 and while_block < 9 do
-    new_num = column_num % 26
+    local new_num = column_num % 26
     address_str = address_str .. string.char(new_num + 64)
     column_num = column_num / 26
     column_num = column_num - column_num % 1
@@ -29,6 +31,6 @@ function column_row_str(column_num, row_num)
   return address_str
 end
 
+-- Test:
 print(column_row_numbers("bb35"))
-
 print(column_row_str(54, 35))
