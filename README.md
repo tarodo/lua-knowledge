@@ -12,6 +12,7 @@ Knowledges about lua
       1. [Lua. Краткое введение в метатаблицы для чайников](https://habr.com/ru/post/346892/)
    1. [Memoization](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F)
 1. [Learn Lua in 15 Minutes](http://tylerneylon.com/a/learn-lua/)
+1. [MindMap](https://github.com/tarodo/lua-knowledge/blob/master/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5%20Lua.pdf)
 
 ## Статьи по Lua
 
